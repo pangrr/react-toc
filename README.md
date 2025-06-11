@@ -2,6 +2,8 @@
 
 ![Screen Recording 2025-06-10 at 9 31 55 PM](https://github.com/user-attachments/assets/2645a508-b116-4716-b750-5b58aabfc121)
 
+## [Demo](https://playcode.io/2419175)
+
 ## Usage
 
 `handleContainer` generates one table of contents entry for each `<section />` inside the container element.
