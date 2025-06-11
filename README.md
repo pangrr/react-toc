@@ -6,7 +6,7 @@
 
 The `innerText` of the first `<h2 />` inside each `<section />` is used as the label of each entry in the table of contents.
 
-```ts
+```tsx
 import useToc from "@pangrr/react-toc";
 
 function App() {
