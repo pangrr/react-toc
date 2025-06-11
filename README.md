@@ -2,6 +2,8 @@
 
 ## Usage
 
+`npm install @pangrr/react-toc` or `yarn add @pangrr/react-toc`
+
 `handleContainer` generates one table of contents entry for each `<section />` inside the container element.
 
 The `innerText` of the first `<h2 />` inside each `<section />` is used as the label of each entry in the table of contents.
