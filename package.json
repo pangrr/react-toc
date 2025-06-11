@@ -1,13 +1,16 @@
 {
-  "name": "react-toc",
+  "name": "@pangrr/react-toc",
   "version": "0.1.0",
   "description": "React Table of Contents with Auto Highlight",
-  "main": "index.js",
-  "directories": {
-    "test": "test"
-  },
+  "homepage": "https://github.com/pangrr/react-toc",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsup"
   },
   "keywords": [
     "toc",
@@ -19,6 +22,7 @@
   "devDependencies": {
     "@types/react": "^19.1.7",
     "ts-node": "^10.9.2",
+    "tsup": "^8.5.0",
     "typescript": "^5.8.3"
   },
   "dependencies": {
