@@ -6,6 +6,8 @@
 
 ## Usage
 
+`npm install @pangrr/react-toc`
+
 ```tsx
 import useToc from "@pangrr/react-toc"
 
