@@ -1,0 +1,27 @@
+{
+  "name": "react-toc",
+  "version": "0.1.0",
+  "description": "React Table of Contents with Auto Highlight",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "toc",
+    "table-of-content",
+    "react"
+  ],
+  "author": "Ran Pang",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/react": "^19.1.7",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "react": "^19.1.0"
+  }
+}
