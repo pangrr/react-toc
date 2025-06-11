@@ -1,6 +1,6 @@
 # React Table of Contents with Auto Highlight
+![Screen Recording 2025-06-11 at 10 36 11 AM](https://github.com/user-attachments/assets/f1fa5687-de74-46cc-bdc2-7c77767faebf)
 
-![Screen Recording 2025-06-10 at 9 31 55 PM](https://github.com/user-attachments/assets/2645a508-b116-4716-b750-5b58aabfc121)
 
 ## [Demo](https://playcode.io/2419175)
 
