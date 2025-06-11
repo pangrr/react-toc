@@ -1,6 +1,6 @@
 {
   "name": "@pangrr/react-toc",
-  "version": "0.1.4",
+  "version": "0.2.0",
   "description": "React Table of Contents with Auto Highlight",
   "homepage": "https://github.com/pangrr/react-toc",
   "main": "./dist/index.js",
@@ -27,5 +27,9 @@
   },
   "dependencies": {
     "react": "^19.1.0"
+  },
+  "prettier": {
+    "semi": false,
+    "trailingComma": "none"
   }
 }

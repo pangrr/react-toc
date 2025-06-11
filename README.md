@@ -6,39 +6,51 @@
 
 ## Usage
 
-`handleContainer` generates one table of contents entry for each `<section />` inside the container element.
-
-The `innerText` of the first `<h2 />` inside each `<section />` is used as the label of each entry in the table of contents.
-
 ```tsx
-import useToc from "@pangrr/react-toc";
+import useToc from "@pangrr/react-toc"
 
 function App() {
-  const { toc, activeId, handleContainer } = useToc();
+  // useToc options default { sectionSelector: ":scope > section", headingSelector: ":scope > h2,h3" }
+  const { toc, activeSectionId, handleContentsContainer } = useToc({
+    sectionSelector: ":scope > section", // Used get all section elements within the contents container element by contentsContainerElement.querySelectorAll(sectionSelector).
+    headingSelector: ":scope > h2,h3" // Used to get the heading element within each section element by sectionElement.querySelect(headingSelector). If no heading element, the section element is ignored in the table of contents
+  })
 
   return (
     <>
       <nav>
-        <ul>
-          {toc.map(({ id, label }) => (
-            <li key={id}>
-              <a
-                href={`#${id}`}
-                className={`${id === activeId ? "text-blue-500" : ""}`}
-              >
-                {label}
-              </a>
-            </li>
-          ))}
-        </ul>
+        {toc.map(({ id, label, heading }) => (
+          <div
+            key={id}
+            style={{
+              margin: "10px 0",
+              paddingLeft: heading.tagName === "H3" ? "20px" : "0px"
+            }}
+          >
+            <a
+              href={`#${id}`}
+              style={{ color: id === activeSectionId ? "blue" : "black" }}
+            >
+              {label}
+            </a>
+          </div>
+        ))}
       </nav>
-      <main ref={handleContainer}>
+      <main ref={handleContentsContainer}>
         <section>
           <h2>Section 1</h2>
           <p>Content</p>
         </section>
+        <section>
+          <h3>Section 1.1</h3>
+          <p>Content</p>
+        </section>
+        <section>
+          <h2>Section 2</h2>
+          <p>Content</p>
+        </section>
       </main>
     </>
-  );
+  )
 }
 ```
