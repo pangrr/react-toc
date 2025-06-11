@@ -1,10 +1,6 @@
 # React Table of Contents with Auto Highlight
+
 ![Screen Recording 2025-06-10 at 9 31 55 PM](https://github.com/user-attachments/assets/2645a508-b116-4716-b750-5b58aabfc121)
-
-
-## NPM package name
-
-`@pangrr/react-toc`
 
 ## Usage
 
