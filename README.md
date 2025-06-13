@@ -2,7 +2,7 @@
 
 ![Screen Recording 2025-06-11 at 10 36 11 AM](https://github.com/user-attachments/assets/f1fa5687-de74-46cc-bdc2-7c77767faebf)
 
-## [Demo](https://playcode.io/2419175)
+## [Live Example](https://playcode.io/2419175)
 
 ## Usage
 
