@@ -1,7 +1,7 @@
 {
   "name": "@pangrr/react-toc",
-  "version": "0.2.2",
-  "description": "React Table of Contents with Auto Highlight",
+  "version": "0.2.3",
+  "description": "react hook to generate table of contents",
   "homepage": "https://github.com/pangrr/react-toc",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",

@@ -1,10 +1,12 @@
-# React Table of Contents with Auto Highlight
+# react hook to generate table of contents
+
+I prefer hooks over components because components limit my styling.
 
 ![Screen Recording 2025-06-11 at 10 36 11 AM](https://github.com/user-attachments/assets/f1fa5687-de74-46cc-bdc2-7c77767faebf)
 
-## [Live Example](https://playcode.io/2419175)
+## [playable example](https://playcode.io/2419175)
 
-## Usage
+## use
 
 `npm install @pangrr/react-toc`
 
